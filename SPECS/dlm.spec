@@ -6,6 +6,7 @@ License:        GPLv2 and GPLv2+ and LGPLv2+
 Group:          System Environment/Kernel
 Summary:        dlm control daemon and tool
 URL:            https://fedorahosted.org/cluster
+BuildRequires:  gcc
 BuildRequires:  glibc-kernheaders
 BuildRequires:  corosynclib-devel >= 1.99.9
 BuildRequires:  pacemaker-libs-devel >= 1.1.7
